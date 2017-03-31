@@ -28,7 +28,7 @@ h1, h2, h3 {
     
 .page p {
     font-family:'Mcondo' , sans-serif;
-    color: aqua;
+    color:black;
 }
 
 
@@ -111,64 +111,47 @@ nav ul li .current a {
     width: 100%;
     float: left;
     height: auto;
+    height: 50%;
 } 
 #projecteur img{
     width: 100%;
     
 }
+
 section{
     width: 100%;
-    float: left;
+    float:left;
 }
 article{
-    width: 50%;
+    width: calc(50% - 20px);
     float: left;
     margin-right:
 } 
-aside{
-    width:30;
+ section aside{
+    width: 50%;;
+    height: auto;
     float: left;
-    margin-right: 20px;
+}
+section aside img{
+    max-width: 100%;    
+}
+section article{
+    width: calc(50% - 20px);
+    height: auto;
+    float: left;
+    margin: 0 10px;
+}
+.partenair{
+    float: left;
+}
+.partenair img{
+    height: 180px;
+    width: 20%;
+    margin-left: 40px;
 }
 
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-.gmap {
+ .gmap {
     width: calc( (100% / 3) - 10px );
     float: left;
     margin-left: 10px;
@@ -228,5 +211,52 @@ aside{
 }
 .contact address a hover {
     text-decoration: underline;
-    
-    
+}
+a, h1, h3 .newsletter, .contact, .feildset {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bolder;
+}
+p{
+    font-family: cursive;
+}
+h1{
+    text-transform: uppercase;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
