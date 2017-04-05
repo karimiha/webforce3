@@ -14,6 +14,7 @@ h1, h2, h3 {
     height: auto;
          /*decoration*/
     margin: 40px auto;
+    background-color: azure
   } 
 
 
@@ -27,7 +28,7 @@ h1, h2, h3 {
     
     
 .page p {
-    font-family:'Mcondo' , sans-serif;
+    font-family:;
     color:black;
 }
 
@@ -88,6 +89,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 30px;
+    font-family: -webkit-pictograph;
 }
     
 
@@ -143,13 +145,23 @@ section article{
 }
 .partenair{
     float: left;
+    width: 100%;
 }
 .partenair img{
     height: 180px;
     width: 20%;
     margin-left: 40px;
 }
+.partenair h2{
+    text-align: center;
+    font-family: -webkit-pictograph;
+}
 
+footer {
+    width: 100%;
+    float: left;
+    background: #ea2b36;
+}
 
  .gmap {
     width: calc( (100% / 3) - 10px );
@@ -222,9 +234,18 @@ p{
 h1{
     text-transform: uppercase;
 }
+div section article h1{
+    font-family: font-family: -webkit-pictograph;
+        text-align: center;
+}
 
    
-
+div section article p{
+    color: black;
+    text-align: center;
+    text-align: center;
+    font-family: -webkit-pictograph;
+}
 
 
 
