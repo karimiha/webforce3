@@ -164,19 +164,19 @@ footer {
 }
 
  .gmap {
-    width: calc( (100% / 3) - 10px );
+   /* width: calc( (100% / 3) - 10px );
     float: left;
-    margin-left: 10px;
+    margin-left: 10px;*/
 }
 .newsletter {
-    width: calc( (100% / 3) - 10px );
+   /* width: calc( (100% / 3) - 10px );
     float:left;
-    margin-left: 10px;
+    margin-left: 10px;*/
 }
 .contact {
-    width: calc( (100% / 3) - 10PX );
+    /*width: calc( (100% / 3) - 10PX );
     float: left;
-    margin-left: 10px;
+    margin-left: 10px;*/
 }
 .newsletter form fieldset {
     border: 2px solid #fff;

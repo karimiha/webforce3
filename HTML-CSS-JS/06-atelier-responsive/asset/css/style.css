@@ -19,6 +19,9 @@
     clear: both;
 }
 
+body {
+    background-color:#37474F ;
+}
 
 .projecteur img{
     width: 100%;
@@ -49,6 +52,7 @@ nav ul li:last-child{
 nav ul li a{
     color: #fff;
     font-size: 20px;
+    font-family: 'Spirax', cursive;
     
 }
 nav ul li a:hover{
@@ -65,12 +69,52 @@ nav ul li a:hover{
     background-attachment: fixed;
     
 }
+iframe{
+    margin: 0 auto;
+    display: block;
+    border:2px solid white;
+    border-radius: 10px;
+}
+/*section photo*/
+
+
+.karim {
+    height: 320px;
+    object-fit: cover;
+}
+
 article h3{
+    font-family: 'Spirax', cursive;
     margin: 0;
     margin-bottom: 20px;
+    color:white;
 }
 .imgtail img{
     object-fit: cover;
     width: 300px;
     height: 300px;
+    border: 7px solid white;
+    border-radius: 5px;
+}
+article p{
+    color:white;
+    font-size: 17px;
+    font-family: 'Spirax', cursive;
+}
+#videosuite{
+    background: url(../img/astr4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*bas de page*/
+footer{
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    background-color: rgba(0,0,0,0.6);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Spirax', cursive;
 }
