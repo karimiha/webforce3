@@ -27,8 +27,8 @@
     | | |Menu du Haut : Navigation Bootstrap
     --------------------------------------->
     <!-- Static navbar -->
+    <div class="container">
       <nav class="navbar navbar-inverse">
-        <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -56,8 +56,8 @@
               <li><a href="../navbar-fixed-top/">Assistance</a></li>
             </ul>
           </div><!--/.nav-collapse -->
-        </div><!--/.container -->
       </nav>
+        </div><!--/.container -->
       <nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -82,17 +82,15 @@
         </div><!--/.container-fluid -->
       </nav>
       
-      <div class="row">
         
+      <div class="row">
            <div class="col-lg-12">
-               <p>iPhone</p><br>
+               <h1>iPhone</h1><br>
                <p>numéro7</p><br>
-               <p>en savoir plus</p>
+               <p>en savoir plus>> acheter></p>
                  <img src="img/fond.png" alt="">
             </div>
-          
        </div>
-       
        <section style="background:#FFF;">
             <div class="container">
                 <div class="row">
@@ -100,11 +98,41 @@
                              <img src="img/iphone3.png" alt="">
                      </div>      
                       <div class="col-lg-6">
+                           <h1>passez à l'iphone7</h1>
+                           <p>echangez votre smartphone contre un iPhone</p>
+                           <p>neuf dans un apple store et bénficier</p>
+                           <p>de mensualité réduite</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora exercitationem tempore, iusto reprehenderit accusamus. Vel doloribus aspernatur consectetur! Quaerat itaque qui reiciendis magnam, quae dolore officia, esse error animi voluptates.</p>
                      </div>    
                 </div>
             </div>
         </section>
+         
+        <section id="formulaire">
+            <div class="row">
+                <form>
+                    <div class="form-group col-sm-12">
+                      <input type="NomPrenom" class="form-control" id="NomPrenom" placeholder="Nom et Prénom">
+                    </div>
+                    <div class="form-group col-xs-6">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group col-xs-6">
+                      <input type="téléphone" class="téléphone" id="téléphnone" placeholder="téléphone">
+                    </div>
+                    <div class="form-group col-sm-12">
+                      <input type="sujet" class="form-control" id="sujet" placeholder="sujet">
+                    </div>
+                    <div class="form-group col-sm-12">
+                     <label for="commentairs">vos commentairs</label>
+            <textarea name="commentairs" rows="10" cols="60" id="commentairs"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Envoyer ma Demande</button>
+                </form>
+            </div>
+        </section> 
+          
+       
         
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
