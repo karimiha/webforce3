@@ -16,7 +16,7 @@ function bonjour(prenom){
     document.write("<p>hello<srong>" +" " + prenom + "</stron> ! </p>");
     
 } 
-/*Appeler /utiliser un efonction avec un paramètre*/
+/*Appeler /utiliser une fonction avec un paramètre*/
 bonjour("karim");
 
 /*exercice :

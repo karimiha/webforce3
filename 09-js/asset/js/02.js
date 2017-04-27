@@ -72,7 +72,7 @@ var mondernierelement = couleur.pop();
 // la mem chose est possible avec le premier élément en utilisant la fonction shift()
 // la fonction splice()vous permet de fair sortir un ou plusieurs éléments de votre tableau
 
-
+/**/
 
 
 
