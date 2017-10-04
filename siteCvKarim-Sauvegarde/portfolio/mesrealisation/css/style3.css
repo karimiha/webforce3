@@ -1,0 +1,32 @@
+.rect1{
+  width: 500px;
+  height: auto;
+  background-color: yellow;
+  /*position: relative;*/
+}
+body{
+  background-color: pink;
+}
+
+.rect2{
+  width: 250px;
+  height: 150px;
+  background-color: red;
+  /*position: absolute;*/
+}
+.rect3{
+  width: 50px;
+  height: 70px;
+  background-color: black;
+  float: left;
+  /*position: absolute;
+  /*top: 0px*/
+  /*right: 0px;*/
+}
+.rect4{
+  width: 50px;
+  height: 70px;
+  background-color: white;
+  float: left;
+  float: left;
+}

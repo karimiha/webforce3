@@ -1,0 +1,30 @@
+body{
+  background-color:;
+}
+.page{
+  width: 1000px;
+  height:auto;
+}
+.rect1{
+  width: 500px;
+  height: 750px;
+  float: left;
+  background-color: blue;
+}
+.rect2{
+  float: left;
+  width: 500px;
+  height: 750;
+}
+.siz1{
+  width: 250px;
+  height: 250px;
+  float: left;
+  background-color:red;
+}
+.siz2{
+  width: 250px;
+  height: 250px;
+  float: left;
+  background-color: yellow;
+}

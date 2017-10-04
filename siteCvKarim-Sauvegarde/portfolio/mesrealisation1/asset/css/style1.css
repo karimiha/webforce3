@@ -1,0 +1,72 @@
+
+body{
+  background-color: #ca0003;
+
+}
+main{
+  background-color:#ca0003;
+}
+#select{
+  margin-bottom: 10px;
+}
+
+.topheader{
+
+  background-color: #3979b6;
+  color: white;
+  font-family: 'Ravi Prakash', cursive;
+ }
+.header{
+ background-image: url("../img/printemps.jpg");
+}
+.header h1{
+ text-align: center;
+ font-family: 'Ravi Prakash', cursive;
+}
+.projecteur{
+  padding-top: 88px;
+}
+.basdepage{
+  background-color: #3979b6;
+  margin-top: 30px;
+}
+
+.basdepage img{
+margin-left: 30px;
+
+}
+.basdepage img:hover {
+  filter: grayscale(100%);
+}
+
+.basdepage article{
+  font-family: 'Ravi Prakash', cursive;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+#select{
+    margin-bottom: 50px;
+}
+button{
+margin-top: 12px;
+margin-bottom: 61px;
+}
+
+footer {
+background-color: #070640;
+padding: 10px 0;
+height: 35px;
+}
+
+footer p {
+margin: 0;
+text-align: center;
+color: #FFF;
+font-size: 16px;
+font-family: 'Ravi Prakash', cursive;
+
+}

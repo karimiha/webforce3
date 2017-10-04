@@ -1,0 +1,47 @@
+body{
+  background-color: #3979b6;
+
+}
+main{
+  background-color:#ca0003;
+}
+
+
+   .topheader{
+
+     background-color: #3979b6;
+     color: white;
+     font-family: 'Ravi Prakash', cursive;
+   }
+   .header{
+     background-image: url("../img/printemps.jpg");
+   }
+   .header h1{
+     text-align: center;
+     font-family: 'Ravi Prakash', cursive;
+   }
+   .projecteur{
+     padding-top: 88px;
+   }
+   .basdepage{
+     background-color: #3979b6
+   }
+   .basdepage img{
+     margin-left: 39px;
+   }
+   .basdepage article{
+     padding-top: 10px;
+     padding-right: 8px;
+     color: black;
+   }
+
+footer {
+  background-color: #070640;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
